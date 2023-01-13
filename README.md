@@ -4,6 +4,8 @@ This repository documents a standard commit message and continuous release pract
 
 - [Commits](#commits)
     - [Commit Header Format](#commit-header-format)
+        - [Types](#types)
+        - [Scopes](#scopes)
     - [Commit Body Format](#commit-body-format)
     - [Commit Footer Format](#commit-footer-format)
     - [Referencing Issues Without Closing](#referencing-issues-without-closing)
@@ -64,7 +66,7 @@ The header contains succinct description of the change:
 └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|revert|test
 ```
 
-**Types**
+### Types
 
 Required. Must be one of the following:
 
@@ -81,7 +83,7 @@ Required. Must be one of the following:
 |`revert`|Revert to a previous commit|
 |`test`|Add missing tests or correct existing tests|
 
-**Scopes**
+### Scopes
 
 Optional. If used, must be one of the following supported scopes:
 
@@ -117,7 +119,9 @@ Typing `#<number>` anywhere within the commit text without the `Resolves` flag w
 
     docs(readme): update `foo` section
 
-    The previous change in #4 made the readme guidance unclear. Makes preparations for changes coming in #9.
+    The previous change in #4 made the readme guidance unclear.
+    
+    Makes preparations for changes coming in #9.
 
     Resolves: #8
 
@@ -167,7 +171,8 @@ Resolves: #2
 ```
 feat(index): add function `foobar`
 
-BREAKING CHANGE: This function does some new useful things. Due to additional refactoring in the `foo` function, it no longer does baz.
+BREAKING CHANGE: This function does some new useful things.
+Due to additional refactoring in the `foo` function, it no longer does baz.
 
 This change required additional description in a second body paragraph.
 
