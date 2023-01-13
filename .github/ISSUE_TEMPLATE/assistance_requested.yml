@@ -1,6 +1,5 @@
 name: Assistance Requested
 description: Request assistance in how to implement the common commit guidance
-title: 'Description'
 labels: ['question']
 assignees:
   - m-scott-lassiter
