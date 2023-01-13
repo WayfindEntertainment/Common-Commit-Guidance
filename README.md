@@ -1,4 +1,4 @@
-# Common-Commit-Guidance
+# Common Commit Guidance
 
 This repository documents a standard commit message and continuous release practice for all Graphic Art Quest code projects. This specification is inspired by and supersedes the [Angular Commit Message](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit). Feel free to copy or modify this guidance in your own projects, or link back here as a common resource.
 
