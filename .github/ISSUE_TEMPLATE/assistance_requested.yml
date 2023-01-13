@@ -19,6 +19,9 @@ body:
         - 'Body'
         - 'Footer'
         - 'CI/CD'
+        - 'Other'
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
