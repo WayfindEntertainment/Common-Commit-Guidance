@@ -1,0 +1,36 @@
+name: Assistance Requested
+description: Request assistance in how to implement the common commit guidance
+title: 'Description'
+labels: ['question']
+assignees:
+  - m-scott-lassiter
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you taking the time to fill out this request!
+  - type: dropdown
+    id: focus
+    attributes:
+      label: What part of the guidance do you need help with?
+      multiple: true
+      options:
+        - 'Header'
+        - 'Body'
+        - 'Footer'
+        - 'CI/CD'
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is your question?
+      placeholder: I am trying to do...
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/GraphicArtQuest/Common-Commit-Guidance/blob/main/CODE_OF_CONDUCT.md)
+          required: true
