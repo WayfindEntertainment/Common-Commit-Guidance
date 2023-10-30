@@ -1,6 +1,6 @@
 # Common Commit Guidance
 
-This repository documents a standard commit message and continuous release practice for all Graphic Art Quest code projects. This specification is inspired by and supersedes the [Angular Commit Message](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit). Feel free to copy or modify this guidance in your own projects, or link back here as a common resource.
+This repository documents a standard commit message and continuous release practice for all Wayfind Entertainment and Graphic Art Quest code projects. This specification is inspired by and supersedes the [Angular Commit Message](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit). Feel free to copy or modify this guidance in your own projects, or link back here as a common resource.
 
 - [Commits](#commits)
     - [Commit Header Format](#commit-header-format)
@@ -128,7 +128,7 @@ Typing `#<number>` anywhere within the commit text without the `Resolves` flag w
 
 # Versioning Triggers
 
-Graphic Art Quest projects use [Semantic Versioning](https://semver.org/). Pushes to the `main` branches trigger updates either manually or automatically (if a continuous integration process has been enabled) based on the specific types used in the commit messages
+All Wayfind Entertainment and Graphic Art Quest projects use [Semantic Versioning](https://semver.org/). Pushes to the `main` branches trigger updates either manually or automatically (if a continuous integration process has been enabled) based on the specific types used in the commit messages
 
 |Trigger|Commit Type|
 |:--|:--|
@@ -196,7 +196,7 @@ build: updated the `bar` dev dependency
 
 # License and Development
 
-These standards, configurations, and all other files in this repository are distributed as free and open-source software under the [MIT License](./LICENSE), © 2023 [Graphic Art Quest](https://www.GraphicArtQuest.com).
+These standards, configurations, and all other files in this repository are distributed as free and open-source software under the [MIT License](./LICENSE), © 2023 [Wayfind Entertainment LLC](https://www.GraphicArtQuest.com).
 
 Contributions welcome. If you have a question for how to use any of this guidance, [open an issue for assistance][questions].
 
@@ -206,6 +206,6 @@ Maintained by [M. Scott Lassiter][maintainer].
 
 [![Subscribe to the Graphic Art Quest YouTube channel](https://img.shields.io/badge/Subscribe%20to%20Graphic%20Art%20Quest-FF0000?style=plastic&logo=youtube&logoColor=white)][subscribe]
 
-[questions]: https://github.com/GraphicArtQuest/Common-Commit-Guidance/issues/new?assignees=m-scott-lassiter&labels=question&template=assistance_requested.yml
+[questions]: https://github.com/WayfindEntertainment/Common-Commit-Guidance/issues/new?assignees=m-scott-lassiter&labels=question&template=assistance_requested.yml
 [maintainer]: https://graphicartquest.com/author/scott-lassiter/
 [subscribe]: https://www.youtube.com/channel/UCFYKeFMbQnY5CdzFH62PAhg?sub_confirmation=1
